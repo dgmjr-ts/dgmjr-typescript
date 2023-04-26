@@ -1,0 +1,31 @@
+{
+    "author": {
+        "emali": "david@dgmjr.io",
+        "name": "David G. Moore, Jr.",
+        "url": "httpd://github.com/dgmjr"
+    },
+    "description": "A collection of data structures for holding HTTP credentials",
+    "devDependencies": {
+        "@tsconfig/node16": "^1.0.3"
+    },
+    "keywords": [
+        "http",
+        "credentials"
+    ],
+    "main": "dist/index.js",
+    "name": "http-helper-constants",
+    "publishConfig": {
+        "registry": "https://github.com/dgmjr-typescript/http-credentials"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dgmjr-typescript/http-credentisls.git"
+    },
+    "scripts": {
+        "build-ts": "tsc",
+        "uninstall": "npm uninstall http-helper-constants",
+        "watch-ts": "tsc --watch",
+        "clean":"rm -rf dist;rm -rf *.js"
+    },
+    "version": "0.0.1"
+}

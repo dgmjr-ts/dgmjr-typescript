@@ -1,0 +1,6 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions":{"baseUrl":".", "outDir": "dist", "rootDir": "."},
+    "include": ["src/*.ts", "index.ts"],
+    "ts-node":{"compilerOptions":{"baseUrl":"."}}
+}

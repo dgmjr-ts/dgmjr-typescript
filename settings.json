@@ -1,0 +1,59 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#471E43",
+        "titleBar.activeBackground": "#632A5E",
+        "titleBar.activeForeground": "#FCF9FC"
+    },
+    "psi-header.changes-tracking": {
+        "autoHeader":true,
+        "includeGlob":["*.ts"],
+        "modAuthor": "Modified By: ",
+        "modDate": "Modified: <<dateformat('YYYY-MM-DD-hh:mm:ss')>>",
+        "isActive": true,
+        "updateLicenseVariables": true,
+        "include": [
+        "typescript"
+        ],
+    "psi-header.config": {
+        "author": "David G. Moore, Jr.",
+        "authorEmail": "david@dgmjr.io",
+        "initials": "dgmjr",
+        "blankLinesAfter": 1,
+        "copyrightHolder": "David G. Moore, Jr.",
+        "creationDateZero": "now",
+        "forceToTop": true,
+        "license": "MIT",
+        "modDateFormat": "date-time",
+        "spacesBetweenYears": true,
+        "updateLicenseVariables": true,
+    },
+    "psi-header.lang-config": [
+        {
+            "begin": "/** ",
+            "end": " */ ",
+            "language": "typescript",
+            "prefix": " * "
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "typescript",
+            "template": [
+                "",
+                "@file: <<filename>>",
+                "@author <<author>> <<<authoremail>>>",
+                "@created <<filecreated('YYYY-MM-DD-hh:mm:ss')>>",
+                "@copyright © <<yeartoyear(<<projectCreationYear>>, now)>> <<copyrightHolder>>, All Rights Reserved",
+                "@license  <<spdxid>> (<<licenseurl>>)",
+                ""
+            ]
+        }
+    ],
+    "psi-header.variables": [
+        [
+            "projectCreationYear",
+            "2021"
+        ]
+    ],
+}
+}
